@@ -1,0 +1,62 @@
+#testID {
+  color: green;
+}
+
+.testClass {
+  color: hotpink;
+  background-color: darksalmon;
+}
+
+.app-container {
+  display: absolute;
+  /* background-color:blueviolet; */
+}
+
+.sidenav {
+  position: sticky;
+  margin: 0em 2em;
+  height: 8vh;
+  padding: 1em;
+  background-color: wheat;
+  border-radius: 15px;
+  
+}
+
+.sidenav ul {
+  list-style-type: none;
+}
+
+.sidenav li {
+  display: inline;
+  padding: 1rem;
+  font-size: 1em;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidenav a:hover {
+  color: pink;
+}
+
+.sidenav .sidenav ul li {
+  text-decoration: none;
+}
+
+.content {
+  /* /* display: block; */
+  /* flex-basis: 100%;
+  text-align: center;  */
+  /* height: 90vh; */
+  /* height: auto;
+  background-color: tomato;
+  padding: 2em;
+  border-radius: 15px; */
+}
+
+.activeLink {
+  font-size: 1rem;
+  color: tomato !important;
+}
